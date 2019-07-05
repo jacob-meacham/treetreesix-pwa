@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "name": "treetreesix",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html -d build/",
+    "build": "parcel build ./src/index.html -d build/ --public-url ./"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-preact": "1.1.0",
+    "babel-preset-stage-3": "6.24.1",
+    "parcel": "1.12.3",
+    "parcel-bundler": "1.12.3",
+    "parcel-plugin-sw-cache": "0.3.0",
+    "prettier": "1.18.2",
+    "workbox-cli": "4.3.1"
+  },
+  "dependencies": {
+    "preact": "8.4.2",
+    "preact-router": "2.5.7",
+    "workbox-expiration": "4.3.1",
+    "workbox-routing": "4.3.1",
+    "workbox-strategies": "4.3.1"
+  },
+  "cache": {
+    "strategy": "inject",
+		"swSrc": "./src/service-worker.js",
+    "swDest": "service-worker.js",
+    "inDev": true
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-3",
+      "preact"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}
