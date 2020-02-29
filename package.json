@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html -d build/",
-    "build": "parcel build ./src/index.html -d build/ --public-url ./"
+    "dev": "parcel ./src/index.html -d public/",
+    "build": "parcel build ./src/index.html -d public/ --public-url ./"
   },
   "devDependencies": {
     "babel-core": "6.26.3",
