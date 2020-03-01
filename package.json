@@ -8,6 +8,7 @@
     "build": "parcel build ./src/index.html -d public/ --public-url ./"
   },
   "devDependencies": {
+    "@now/node": "^1.4.1",
     "babel-core": "6.26.3",
     "babel-preset-env": "1.7.0",
     "babel-preset-preact": "1.1.0",
