@@ -1,0 +1,5 @@
+{
+    "env": {
+      "CALENDAR_API_KEY": "@calendar-api-key"
+    }
+  }

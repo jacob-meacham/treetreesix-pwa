@@ -20,6 +20,7 @@
     "workbox-cli": "4.3.1"
   },
   "dependencies": {
+    "googleapis": "^39.2.0",
     "preact": "8.4.2",
     "preact-router": "2.5.7",
     "workbox-expiration": "4.3.1",
@@ -39,6 +40,9 @@
       "preact"
     ]
   },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
   "prettier": {
     "semi": false,
     "singleQuote": true

@@ -19,3 +19,9 @@ body {
 #app {
   height: 100%;
 }
+
+.event {
+  padding: 20px;
+  margin: 10px;
+  border: #444 1px solid;
+}
